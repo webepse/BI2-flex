@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-flex{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.items{
+    flex: 1;
+    background-color: crimson; 
+    outline: solid 1px black;
+}
+
+.items:nth-child(2)
+{
+    background-color: gold;
+    flex: 2;
+}

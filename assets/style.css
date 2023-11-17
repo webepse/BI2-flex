@@ -4,28 +4,18 @@
 }
 
 .container-flex{
-    width: 100%;
+    width: 1400px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .items{
-   width: 50%;
+    width: 300px;
     background-color: crimson; 
     outline: solid 1px black;
     height: 200px;
 }
 
-.items:nth-child(2)
-{
-    background-color: gold;
-    width: 100%;
-    display: flex;
-}
 
-.sitems{
-    background-color: black;
-    outline: solid 1px white;
-    color: white;
-    flex: 1;
-}

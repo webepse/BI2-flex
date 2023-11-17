@@ -18,4 +18,21 @@
     height: 200px;
 }
 
+@media all and (max-width: 1400px)
+{
+    .container-flex{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 800px)
+{
+    .container-flex{
+        flex-direction: column;
+    }
+
+    .items{
+        width: 100%;
+    }
+}
 
